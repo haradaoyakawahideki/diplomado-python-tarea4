@@ -1,0 +1,11 @@
+id,tipo,pregunta,verdad,tolerancia,unidad,fuente_verdad
+bcrp_pbi2020,BCRP,"¿Cuánto varió el PBI real del Perú en 2020 según el BCRP, en %?",-10.93,0.05,%,BCRP API PM04923AA 2020
+bcrp_ipc_dic22,BCRP,"¿Cuál fue la inflación interanual (IPC 12 meses) de Lima Metropolitana en diciembre de 2022 según el BCRP, en %?",8.46,0.05,%,BCRP API PN01273PM Dic.2022
+bcrp_ref_dic24,BCRP,"¿Cuál era la tasa de referencia de la política monetaria del BCRP en diciembre de 2024, en %?",5.00,0.01,%,BCRP API PD04722MM Dic.2024
+bcrp_igv_caj24,BCRP,"¿Cuánto recaudó SUNAT por IGV interno en Cajamarca en 2024 según el BCRP, en millones de soles?",181.89,1.0,millones S/,BCRP API RD16452DA 2024
+enaho_nac24,ENAHO,"¿Cuál fue la tasa de pobreza monetaria nacional del Perú en 2024 según la ENAHO, en % de personas?",27.6,0.1,%,INEI informe técnico 2025; Sesión 16
+enaho_rural24,ENAHO,"¿Cuál fue la pobreza monetaria en el área rural del Perú en 2024 según la ENAHO (estrato 6-8), en %?",39.3,0.2,%,INEI informe técnico 2025; Sesión 16
+enaho_cusco24,ENAHO,"¿Cuál fue la pobreza monetaria del departamento de Cusco en 2024 según la ENAHO, en %?",18.5,0.2,%,referencias/pobreza_departamento_2024.csv (Sesión 16)
+enaho_nac19,ENAHO,"¿Cuál fue la tasa de pobreza monetaria nacional del Perú en 2019 según la ENAHO, en %?",20.2,0.1,%,INEI informe técnico 2020
+mixta_caj,Mixta,"¿Qué departamento tuvo la mayor pobreza monetaria en 2024 según la ENAHO, y cuánto creció en términos nominales su recaudación de IGV interno entre 2019 y 2024 según el BCRP, en %?",28.97,0.5,% (y departamento = Cajamarca 45.0 %),Sesión 16 + BCRP API RD16452DA 2019 y 2024
+mixta_cusco,Mixta,"¿Cuál fue la pobreza monetaria de Cusco en 2024 según la ENAHO, y cuánto creció en términos nominales el saldo de crédito directo al sector privado en Cusco entre 2019 y 2024 según el BCRP, en %?",28.33,0.5,% (y pobreza = 18.5 %),Sesión 16 + BCRP API RD16148DA 2019 y 2024
