@@ -39,7 +39,7 @@ def main(desde, hasta):
     df["cambio_pobreza_pp"] = df[f"pobreza_{hasta}"] - df[f"pobreza_{desde}"]
     paneles = {}
     for k in INDICADORES:
-        b = leer(SAL / f"bcrp_{k}_{desde}_{hasta}.csv", f"Usa la herramienta MCP panel_departamental('{k}').")
+        b = leer(SAL / f"bcrp_{k}_{desde}_{hasta}_real.csv", f"Usa la herramienta MCP panel_departamental('{k}').")
         paneles[k] = b.set_index("ccdd")
         df[f"indice_{k}"] = paneles[k]["indice"]
     if len(df) != 25 or df.isna().any().any():

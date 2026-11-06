@@ -232,7 +232,7 @@ def _ipc_anual(desde, hasta):
 @mcp.tool(annotations={"readOnlyHint": False, "openWorldHint": True})
 def panel_departamental(indicador: str, desde: int = 2019, hasta: int = 2024, real: bool = True) -> dict:
     """Descarga de una vez una serie anual del BCRP para los 25 departamentos y la guarda en
-    salidas/bcrp_<indicador>_<desde>_<hasta>.csv con el código de departamento de la ENAHO (ccdd = ubigeo[:2]).
+    salidas/bcrp_<indicador>_<desde>_<hasta>_<real|nominal>.csv (con columna unidad) y el código de departamento de la ENAHO (ccdd = ubigeo[:2]).
 
     indicador: "igv" (IGV interno recaudado por SUNAT), "credito" (crédito directo al sector privado, saldo a fin de
     año) o "inversion_regional" (inversión bruta fija del gobierno regional; para Lima suma la Municipalidad
@@ -266,9 +266,10 @@ def panel_departamental(indicador: str, desde: int = 2019, hasta: int = 2024, re
     ancho = df.pivot(index="ccdd", columns="anio", values="valor")
     ancho["indice"] = 100 * ancho[str(hasta)] / ancho[str(desde)]
     SALIDAS.mkdir(exist_ok=True)
-    ruta = SALIDAS / f"bcrp_{indicador}_{desde}_{hasta}.csv"
+    unidad = f"millones de soles de {desde} (real, deflactado con IPC {IPC})" if real else "millones de soles corrientes (nominal)"
+    ancho["unidad"] = unidad
+    ruta = SALIDAS / f"bcrp_{indicador}_{desde}_{hasta}_{'real' if real else 'nominal'}.csv"
     ancho.round(4).to_csv(ruta)
-    unidad = f"millones de soles de {desde}" if real else "millones de soles corrientes"
     return {"indicador": indicador, "grupo": grupo, "unidad": unidad, "codigos": codigos,
             "deflactor": IPC if real else None, "archivo": str(ruta.relative_to(AQUI.parent)),
             "departamentos": [{"ccdd": c, "desde": round(r[str(desde)], 2), "hasta": round(r[str(hasta)], 2),

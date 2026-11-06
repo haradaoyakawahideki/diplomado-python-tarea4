@@ -1,0 +1,7 @@
+Pregunta de investigación: ¿Los departamentos con mayor pobreza monetaria antes de la pandemia (2019) mostraron una recuperación económica más débil entre 2019 y 2024, y cómo se distribuía la pobreza departamental en 2024?
+
+Actúa como agente de investigación. Primero escribe un plan breve. Luego:
+1. Con el servidor MCP bcrp: busca y resume el PBI real (variación anual 2019-2024) y la inflación de Lima; usa comparar_periodos en al menos una serie; y descarga con panel_departamental los paneles reales de igv, credito e inversion_regional (2019-2024).
+2. Con las skills: limpiando-enaho (2019 y 2024), graficando-enaho (area y cambio), mapeando-enaho (2024) y cruzando-bcrp-enaho.
+3. Escribe informes/informe_final.md en español con: pregunta (tema, objetivo, delimitación); fuentes y metodología; al menos 3 hallazgos con cifras citando código de serie BCRP, periodo y archivo de salida; visualizaciones (figuras/bcrp_recuperacion_real.png, un gráfico ENAHO y mapas/pobreza_departamento_2024.png); interpretación; limitaciones; reproducibilidad.
+Reglas: toda cifra debe venir de una herramienta o un archivo generado, nunca de memoria; describe asociaciones, no causas; si una herramienta falla, dilo en el informe.

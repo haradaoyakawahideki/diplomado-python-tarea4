@@ -7,7 +7,7 @@ argument-hint: [desde hasta]
 
 1. Requisitos (créalos si faltan, en este orden):
    - `salidas/indicadores_2019.csv` y `salidas/indicadores_2024.csv` → skill `limpiando-enaho` con `2019` y `2024`.
-   - `salidas/bcrp_<indicador>_2019_2024.csv` para `igv`, `credito` e `inversion_regional` → herramienta MCP
+   - `salidas/bcrp_<indicador>_2019_2024_real.csv` para `igv`, `credito` e `inversion_regional` → herramienta MCP
      `panel_departamental` del servidor `bcrp` (real=True). No copies cifras a mano en estos archivos.
 2. Corre desde `tarea_4/`: `uv run ${CLAUDE_SKILL_DIR}/scripts/cruzar.py`
 3. El script une por `ccdd` (ubigeo[:2]), exige 25 departamentos, calcula correlaciones de Spearman entre la
