@@ -1,0 +1,16 @@
+Validación ENAHO 2019 (INEI, código 687) — generado por limpiar.py
+
+[APROBADA] Llaves de hogar únicas en la sumaria: 34,565 hogares
+[APROBADA] Llaves de persona únicas en el módulo 02: 128,276 filas
+[APROBADA] La unión no pierde personas (todas tienen hogar): 0 sin hogar
+[APROBADA] La unión no duplica filas: 120,052 antes, 120,052 después
+[APROBADA] Residentes habituales (sin referencia oficial publicada): 120,052
+[APROBADA] 25 códigos departamentales (01-25): 25 códigos: faltan [], sobran []
+[APROBADA] Factores de expansión positivos y sin faltantes: suma facpob07 = 32,480,632 personas
+[APROBADA] Pobreza nacional (sumaria, factor07×mieperho) a ±0.1 pp de 20.2 %: 20.19 %
+[APROBADA] Pobreza nacional (personas, facpob07), informativa: 20.17 %
+[APROBADA] Pobreza urbana a ±0.3 pp de 14.6 %: 14.58 %
+[APROBADA] Pobreza rural a ±0.3 pp de 40.8 %: 40.78 %
+[APROBADA] Pobreza extrema nacional, informativa: 2.85 %
+
+Resultado: TODAS LAS VALIDACIONES ESENCIALES APROBADAS

@@ -1,0 +1,16 @@
+Validación ENAHO 2024 (INEI, código 966) — generado por limpiar.py
+
+[APROBADA] Llaves de hogar únicas en la sumaria: 33,691 hogares
+[APROBADA] Llaves de persona únicas en el módulo 02: 117,721 filas
+[APROBADA] La unión no pierde personas (todas tienen hogar): 0 sin hogar
+[APROBADA] La unión no duplica filas: 108,664 antes, 108,664 después
+[APROBADA] Residentes habituales = referencia: 108,664 (ref. 108,664)
+[APROBADA] 25 códigos departamentales (01-25): 25 códigos: faltan [], sobran []
+[APROBADA] Factores de expansión positivos y sin faltantes: suma facpob07 = 34,147,768 personas
+[APROBADA] Pobreza nacional (sumaria, factor07×mieperho) a ±0.1 pp de 27.6 %: 27.58 %
+[APROBADA] Pobreza nacional (personas, facpob07), informativa: 27.53 %
+[APROBADA] Pobreza urbana a ±0.3 pp de 24.8 %: 24.81 %
+[APROBADA] Pobreza rural a ±0.3 pp de 39.3 %: 39.30 %
+[APROBADA] Pobreza extrema nacional, informativa: 5.50 %
+
+Resultado: TODAS LAS VALIDACIONES ESENCIALES APROBADAS

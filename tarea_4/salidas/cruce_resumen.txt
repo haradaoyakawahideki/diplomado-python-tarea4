@@ -1,0 +1,16 @@
+Cruce BCRP × ENAHO por departamento (n = 25), 2019-2024. Descriptivo, no causal.
+
+Spearman pobreza 2019 vs índice real IGV interno recaudado (2024/2019×100): rho = -0.01
+Spearman pobreza 2019 vs índice real Crédito al sector privado (2024/2019×100): rho = +0.51
+Spearman pobreza 2019 vs índice real Inversión del gobierno regional (2024/2019×100): rho = +0.21
+Spearman pobreza 2019 vs cambio de pobreza 2019-2024 (pp): rho = -0.29
+
+Medianas por tercil de pobreza 2019:
+                     pobreza_2019  pobreza_2024  cambio_pobreza_pp  indice_igv  indice_credito  indice_inversion_regional
+tercil_pobreza_2019                                                                                                      
+menos pobre                  10.2          15.8                9.8       110.7            97.9                      129.3
+medio                        23.6          23.4                1.5       115.6           104.2                      208.1
+más pobre                    33.4          39.0                6.2       103.8           108.2                      181.4
+
+Índices: 100 = mismo nivel real que en 2019; deflactor IPC Lima PN38705PM (promedio anual).
+Con n = 25, |rho| < 0.40 no es distinguible de cero al 5 % (valor crítico aprox. 0.40).

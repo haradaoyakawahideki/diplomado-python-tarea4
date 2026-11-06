@@ -1,0 +1,29 @@
+Comparación con referencias/pobreza_departamento_2024.csv (Sesión 16)
+Departamentos comparados: 25/25; coinciden (redondeo a 0.1): 25; diferencia máxima: 0.00 pp
+
+ccdd  departamento  pobreza_pct_ref  pobreza_pct_calc  n_muestral  dif
+  01      AMAZONAS             25.7             25.75        1243  0.0
+  02        ANCASH             22.8             22.77        1393  0.0
+  03      APURIMAC             24.0             23.96         913  0.0
+  04      AREQUIPA             15.8             15.78        1506  0.0
+  05      AYACUCHO             32.8             32.76        1160  0.0
+  06     CAJAMARCA             45.0             45.01        1469  0.0
+  07        CALLAO             33.9             33.86        1027  0.0
+  08         CUSCO             18.5             18.54        1230  0.0
+  09  HUANCAVELICA             33.4             33.40        1042  0.0
+  10       HUANUCO             39.0             38.96        1244  0.0
+  11           ICA              6.0              6.01        1500  0.0
+  12         JUNIN             18.5             18.50        1506  0.0
+  13   LA LIBERTAD             30.2             30.19        1509  0.0
+  14    LAMBAYEQUE             14.0             14.04        1302  0.0
+  15          LIMA             27.1             27.07        4544  0.0
+  16        LORETO             43.0             42.97        1359  0.0
+  17 MADRE DE DIOS             11.1             11.15         603  0.0
+  18      MOQUEGUA             11.0             10.97         963  0.0
+  19         PASCO             39.0             38.97         865  0.0
+  20         PIURA             31.9             31.86        1611  0.0
+  21          PUNO             39.9             39.94        1123  0.0
+  22    SAN MARTIN             22.0             22.02        1347  0.0
+  23         TACNA             24.0             23.99        1271  0.0
+  24        TUMBES             26.9             26.90         842  0.0
+  25       UCAYALI             27.1             27.07        1119  0.0

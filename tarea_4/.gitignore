@@ -1,0 +1,7 @@
+datos/
+mcp/datos/
+.venv/
+__pycache__/
+.pytest_cache/
+salidas/*.parquet
+.DS_Store
