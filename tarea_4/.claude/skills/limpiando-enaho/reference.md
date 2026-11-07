@@ -34,9 +34,11 @@ Residente habitual: `((p204 == 1) & (p205 == 2)) | ((p204 == 2) & (p206 == 1))`.
 
 | Cifra | 2024 | 2019 | Fuente |
 |---|---|---|---|
-| Pobreza monetaria nacional | 27.6 % | 20.2 % | INEI, *Evolución de la pobreza monetaria* (informes técnicos 2025 y 2020) |
-| Urbana / rural | 24.8 % / 39.3 % | 14.6 % / 40.8 % | ídem |
+| Pobreza monetaria nacional | 27.6 % | 20.2 % | INEI, *Evolución de la pobreza monetaria* (informes técnicos 2025 y 2020); 2019 verificado en https://www.inei.gob.pe/media/MenuRecursivo/noticias/np_65_2020.pdf |
+| Urbana / rural | 24.8 % / 39.3 % | 14.6 % / 40.8 % | 2024: Sesión 16; 2019: INEI, nota de prensa N.º 065-2020 y presentación del jefe del INEI (mayo 2020) |
 | Residentes habituales | 108,664 | sin referencia publicada | Sesión 16 |
 | Departamentos | 25 | 25 | `referencias/pobreza_departamento_2024.csv` (Sesión 16) |
 
 Tolerancia: ±0.1 pp en la pobreza nacional (esencial); ±0.3 pp en urbana/rural (aviso).
+
+Verificación 2019 (7 nov 2026): INEI publica 20.2 % nacional, 14.6 % urbana, 40.8 % rural y 2.9 % extrema; `limpiar.py` obtiene 20.19 %, 14.58 %, 40.78 % y 2.85 %.
