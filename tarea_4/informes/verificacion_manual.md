@@ -5,9 +5,9 @@
 
 | # | Afirmación del informe | Valor en el informe | Cómo verificar | Valor observado | ¿Coincide? | Diferencia / comentario |
 |---|---|---|---|---|---|---|
-| 1 | PBI real 2020 (H1) | −10.93 % | https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/resultados/PM04923AA/html/2019/2024/ | | | |
-| 2 | Inflación Lima 12 m, máximo jun-2022 (H1) | 8.81 % | https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01273PM/html/2022-1/2022-12/ | | | |
-| 3 | Pobreza nacional 2024 (H4) | 27.58 % | INEI, *Perú: Evolución de la pobreza monetaria 2015-2024* (informe técnico) y `salidas/validacion.txt` | | | |
+| 1 | PBI real 2020 (H1) | −10.93 % | https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/resultados/PM04923AA/html/2019/2024/ | -10.93% | Sí | N/A |
+| 2 | Inflación Lima 12 m, máximo jun-2022 (H1) | 8.81 % | https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01273PM/html/2022-1/2022-12/ | 8.81 | Sí | N/A |
+| 3 | Pobreza nacional 2024 (H4) | 27.58 % | INEI, *Perú: Evolución de la pobreza monetaria 2015-2024* (informe técnico) y `salidas/validacion.txt` | 27.6 (INEI); 27.58 (validacion.txt) | Sí | 0.02 pp por redondeo; dentro de la tolerancia de 0.1 pp |
 | 4 (opcional) | Pobreza Cajamarca 2024 (H4) | 45.0 % | INEI, informe técnico 2024, cuadro por departamento / `referencias/pobreza_departamento_2024.csv` | | | |
 | 5 (opcional) | IGV interno Cajamarca 2019 y 2024 (nominal) | 141.04 y 181.89 millones S/ | https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/resultados/RD16452DA/html/2019/2024/ | | | |
 
