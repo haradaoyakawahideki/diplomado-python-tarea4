@@ -61,7 +61,13 @@ Figura complementaria: `figuras/cruce_pobreza2019_recuperacion.png`.
 
 ## 5. Interpretación
 
-La evidencia no apoya la idea de que los departamentos más pobres antes de la pandemia tuvieran una recuperación más débil. Con el IGV y la inversión regional no hay asociación clara. Con el crédito, la asociación es positiva y moderada: los más pobres en 2019 tuvieron más crecimiento real del crédito. Además, el aumento de la pobreza entre 2019 y 2024 fue mayor en departamentos que en 2019 eran menos pobres y más urbanos, como Callao, Lima, Tumbes y Ucayali. Esto es compatible con la mayor subida de la pobreza urbana. Aun así, en 2024 los niveles más altos siguen en departamentos que ya eran pobres, como Cajamarca, Loreto y Puno. Todo lo anterior son asociaciones entre 25 unidades y no permite atribuir causas.
+No se encontró evidencia de que los departamentos más pobres antes de la pandemia tuvieran una recuperación económica más débil luego de la pandemia. 
+
+Por el contrario, el aumento de la pobreza entre 2019 y 2024 fue mayor en departamentos que en 2019 eran menos pobres y más urbanos, como Callao, Lima, Tumbes y Ucayali. Esto es compatible con la mayor subida de la pobreza urbana. 
+
+Sin embargo, en 2024 los niveles más altos de pobreza siguen en departamentos que ya eran pobres en 2019, como Cajamarca, Loreto y Puno. Es decir, si bien no hubo una recuperación económica más lenta de los departamentos pobres, estos departamentos no lograron sobreponerse a su concentración de pobreza al 2024. 
+
+Estas interpretaciones solo apuntan a relaciones limitadas a las regiones. Esto no apunta a relaciones causales.
 
 ## 6. Limitaciones
 
