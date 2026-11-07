@@ -147,5 +147,5 @@ herramientas MCP (`buscar_series`, `resumen`, `comparar_periodos`, `panel_depart
 
 ## 12. Evidencias del uso de IA
 
-Todo se desarrolló con Claude Code. Las conversaciones están en [`evidencias_ia/`](evidencias_ia/):
+Todo se desarrolló con Claude Code. **Conversación completa (exportada):** [`evidencias_ia/conversacion/claude_code_sesion_completa.md`](evidencias_ia/conversacion/claude_code_sesion_completa.md). Registros adicionales en [`evidencias_ia/`](evidencias_ia/):
 `mcp/`, `skills/`, `integracion/`, `evaluacion/` (registros `.jsonl` de cada pregunta en ambos modos).
